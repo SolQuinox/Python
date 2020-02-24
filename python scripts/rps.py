@@ -15,7 +15,7 @@ def rockPaperScissors(fname, fCompName):
         playagain = False
         humanInput = input("Rock, Paper, or Scissors? Please remember that you can only respond with 'Rock', 'Paper' or 'Scissors'.")
         if computerChoice == compList[0]:
-            if humanInput == " Rock":
+            if humanInput == "Rock":
                 print("Tie! Try again! You and your opponent both chose rock!")
                 playagain = True
             elif humanInput == "Paper":
