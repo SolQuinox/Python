@@ -10,6 +10,7 @@ compList = ["Rock", "Paper", "Scissors"]
 
 def rockPaperScissors(fname, fCompName):
     playagain = True
+    global computerWin
     while playagain == True:
         computerChoice = random.choice(compList)
         playagain = False
@@ -53,5 +54,4 @@ def rockPaperScissors(fname, fCompName):
             else:
                 print("Please only use the terms 'Rock', 'Paper' or 'Scissors as said exactly in this sentence.")
                 playagain = True
-    return computerWin
 rockPaperScissors(name, compName)
